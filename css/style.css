@@ -53,12 +53,18 @@ body {
     color: #DE2E54;
 }
 .site-logo-link:active{
-    color: #DE2E54;
     opacity: .6;
 
 }
 .site-logo-img{
     margin-right: 16px;
+    border-radius: 50%;
+}
+.site-footer-logo-link{
+    color: #fff;
+}
+.site-footer-logo-link:hover{
+    color: #fff;
 }
 
 /*SITENAV*/
@@ -112,6 +118,30 @@ body {
 }
 .enrollment-link:active{
     background-color: #de2e54;
+    color: #fff;
+    opacity: 0.6;
+}
+
+/*MAIN*/
+
+/* SITE FOOTER*/
+.site-footer{
+    background-color: #222;
+    padding: 24px;
+}
+.site-footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sitenav-footer-sitenav-link .sitenav-item-link{
+    color: #fff;
+    text-decoration: none;
+}
+.sitenav-footer-sitenav-link .sitenav-item-link:hover{
+    color: #de2e54;
+}
+.sitenav-footer-sitenav-link .sitenav-item-link:active{
     color: #fff;
     opacity: 0.6;
 }
