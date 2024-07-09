@@ -2,6 +2,10 @@
 *{
     box-sizing: border-box;
 }
+*:focus{
+    outline: 3px dotted #DE2E54;
+    outline-offset: 3px;
+  }
 
 body {
     margin: 0;
@@ -10,7 +14,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    background-color: white;
+    background-color: #fff;
     color: #444;
 }
 
@@ -24,9 +28,90 @@ body {
     margin-left: auto;
 }
 
-p{
-    font-family: "Open Sans Condensed"; 
+/*HEADER*/
+.site-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.site-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/*LOGO*/
+.site-logo-link{
+    display: flex;
+    align-items: center;
+    color: #222;
+    text-decoration: none;
+    font-family: "Open Sans", Arial,sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.site-logo-link:hover{
+    color: #DE2E54;
+}
+.site-logo-link:active{
+    color: #DE2E54;
+    opacity: .6;
+
+}
+.site-logo-img{
+    margin-right: 16px;
+}
+
+/*SITENAV*/
+.sitenav{
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 14px;
     font-weight: 700;
-    color: white;
-    background-color: black;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.sitenav-list{
+    display: flex;
+   list-style: none;
+}
+
+.sitenav-item:not(:last-child){
+    margin-right: 32px;
+}
+
+.sitenav-item{
+    color: #222;
+    text-decoration: none;
+}
+.sitenav-item-link{
+    color: #222;
+    text-decoration: none;
+}
+.sitenav-item-link:hover{
+    color: #de2e54;
+}
+.sitenav-item-link:active{
+    opacity: .6;
+}
+.enrollment-link{
+    display: inline-block;
+    background-color: #de2e54;
+    border: 2px solid #de2e54;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    transition: .3s ease color,
+    .3s ease background-color,
+    .3s ease opacity;
+}
+
+.enrollment-link:hover{
+    background-color: #fff;
+    color: #000;
+}
+.enrollment-link:active{
+    background-color: #de2e54;
+    color: #fff;
+    opacity: 0.6;
 }
