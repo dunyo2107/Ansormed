@@ -2,10 +2,6 @@
 *{
     box-sizing: border-box;
 }
-@font-face {
-    font-family: 'Open Sans Condensed';
-    src: url(/fonts/OpenSans_Condensed-Bold.ttf);
-}
 
 body {
     margin: 0;
@@ -14,6 +10,8 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
+    background-color: white;
+    color: #444;
 }
 
 /*CONTAINER*/
