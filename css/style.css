@@ -160,7 +160,18 @@ body {
     margin-bottom: 48px;
 }
 .hero-img{
-    margin-top: 30px;
+    align-self: flex-end;
+}
+.enrollment-solid{
+    border: 0;
+}
+.enrollment-solid:hover{
+    background-color: #de2e54;
+    color: #fff;
+    opacity: 0.8;
+} 
+.enrollment-solid:active{
+    opacity: 0.6;
 }
 /* SITE FOOTER*/
 .site-footer{
