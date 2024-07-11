@@ -238,7 +238,53 @@ body {
     display: flex;
     justify-content: center;
 }
-/* SITE FOOTER*/
+
+/* CTA SECTION */
+.index-cta{
+    background-color: #0EB4C1;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.index-cta-heading{
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.index-cta-buttons-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 64px;
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    font-weight: 700;
+}
+.index-cta-contact{
+    display: inline-block;
+    padding: 12px 24px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: #0EB4C1;
+    text-transform: uppercase;
+    transition: .3s ease color,
+    .3s ease background-color,
+    .3s ease opacity;
+}
+.index-cta-contact:hover{
+    border: 2px solid #de2e54;
+    background-color: #de2e54;
+}
+.index-cta-contact:active{
+    opacity: 0.6;
+}
+/* SITE fOOTER*/
 .site-footer{
     background-color: #222;
     padding: 24px;
