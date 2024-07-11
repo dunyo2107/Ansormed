@@ -6,7 +6,9 @@
     outline: 3px dotted #DE2E54;
     outline-offset: 3px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
