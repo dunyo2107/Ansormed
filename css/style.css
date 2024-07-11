@@ -5,7 +5,7 @@
 *:focus{
     outline: 3px dotted #DE2E54;
     outline-offset: 3px;
-  }
+}
 
 body {
     margin: 0;
@@ -78,7 +78,7 @@ body {
 }
 .sitenav-list{
     display: flex;
-   list-style: none;
+    list-style: none;
 }
 
 .sitenav-item:not(:last-child){
@@ -172,6 +172,73 @@ body {
 } 
 .enrollment-solid:active{
     opacity: 0.6;
+}
+
+/* INDEX SERVICES */
+.index-services{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.index-services-heading{
+    color: #000;
+    text-align: center;
+    font-family:  "Open Sans Condensed", "Open Sans", Arial, sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 56px;
+}
+
+.index-services-list{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.index-service{
+    display: flex;
+    justify-content: center;
+}
+
+.index-services-item{
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 80px;
+}
+.index-services-item:last-child{
+    margin-bottom: 0;
+}
+.index-services-content{
+    padding: 0;
+    width: 600px;
+}
+.index-service-img{
+    margin-right: 64px;
+}
+.index-service-title{
+    color: #222;
+    font-family:  "Open Sans Condensed", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.index-service-description{
+    font-family:  "Open Sans", Arial, sans-serif;
+    Font-weight: 400;
+    Font-size: 16px;
+    Letter-spacing: 0px;
+    color: #444;
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+.index-service-action{
+    display: flex;
+    justify-content: center;
 }
 /* SITE FOOTER*/
 .site-footer{
