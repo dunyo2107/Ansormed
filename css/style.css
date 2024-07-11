@@ -251,6 +251,8 @@ body {
 }
 
 .index-cta-heading{
+    font-family: "Open Sans Condensed", Arial, sans-serif;
+    font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
@@ -267,19 +269,13 @@ body {
     font-weight: 700;
 }
 .index-cta-contact{
-    display: inline-block;
-    padding: 12px 24px;
     color: #fff;
     border: 2px solid #fff;
-    border-radius: 8px;
-    text-decoration: none;
-    background-color: #0EB4C1;
-    text-transform: uppercase;
-    transition: .3s ease color,
-    .3s ease background-color,
-    .3s ease opacity;
+    background-color: #0eb4c1;
+    
 }
 .index-cta-contact:hover{
+    color: #fff;
     border: 2px solid #de2e54;
     background-color: #de2e54;
 }
